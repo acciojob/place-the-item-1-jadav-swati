@@ -1,2 +1,19 @@
 
 /* Your CSS Code here. */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.holder{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.box{
+    background-color: brown;
+    height: 20vh;
+    width: 20vw;
+}
